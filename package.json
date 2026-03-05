@@ -1,0 +1,24 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "description": "xyza's docs",
+  "homepage": "https://github.com/xyzarivera/docs#readme",
+  "bugs": {
+    "url": "https://github.com/xyzarivera/docs/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xyzarivera/docs.git"
+  },
+  "engines": {
+    "node": ">=24",
+    "npm": ">= 11"
+  },
+  "license": "ISC",
+  "author": "@xyzarivera",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
