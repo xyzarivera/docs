@@ -5,6 +5,7 @@ export default defineConfig({
   title: "docs",
   description: "xyza's docs",
   base: '/docs/',
+  srcDir: './src',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
