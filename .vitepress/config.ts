@@ -9,13 +9,14 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Conventions', link: '/conventions/typescript' }
+      { text: 'Conventions', link: '/conventions/' }
     ],
 
     sidebar: [
       {
         text: 'Conventions',
         items: [
+          { text: 'Index', link: '/conventions/' },
           { text: 'TypeScript', link: '/conventions/typescript' },
           { text: 'Testing', link: '/conventions/testing' }
         ]
