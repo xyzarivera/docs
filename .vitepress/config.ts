@@ -2,29 +2,28 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "docs",
-  description: "xyza's docs",
+  title: "this time it's documented",
   base: '/docs/',
   srcDir: './src',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Conventions', link: '/conventions/typescript' }
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: 'Conventions',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'TypeScript', link: '/conventions/typescript' },
+          { text: 'Testing', link: '/conventions/testing' }
         ]
       }
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/xyzarivera' }
     ]
   }
 })
